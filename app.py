@@ -36,3 +36,8 @@ with open('index.csv', 'a') as csv_file: #append
 
     writer = csv.writer(csv_file) 
     writer.writerow([name, price, datetime.now()])
+
+input = 0
+while input < 10:
+    print(input)
+    input += 1
